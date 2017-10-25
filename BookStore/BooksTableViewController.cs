@@ -6,6 +6,7 @@ using UIKit;
 
 namespace BookStore
 {
+    /*
     public partial class BooksTableViewController : UITableView
     {
         List<Book> booklist;
@@ -27,19 +28,22 @@ namespace BookStore
 				Publisher = "Bloomsbury",
 				Year = 1998
 			});
-			booklist.Add(new Book()
-			{
-				Author = "J.K. Rowling",
-				Name = "Harry Potter and the Prisoner of Azkaban",
-				Publisher = "Bloomsbury",
-				Year = 1999
-			});
+            booklist.Add(new Book()
+            {
+                Author = "J.K. Rowling",
+                Name = "Harry Potter and the Prisoner of Azkaban",
+                Publisher = "Bloomsbury",
+                Year = 1999
+            });
         }
-        public override nint NumberOfRowsInSection(nint section)
+
+        public override nint NumberOfSections(UITableView tableView)
         {
             return 1;
         }
-        public override nint
+
+
+        }
 
     }
 
@@ -51,3 +55,4 @@ namespace BookStore
         public int Year;
     }
 }
+*/

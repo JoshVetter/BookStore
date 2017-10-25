@@ -100,13 +100,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="TableView.cs" />
-    <Compile Include="TableView.designer.cs">
-      <DependentUpon>TableView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BooksTableViewController.cs" />
-    <Compile Include="BooksTableViewController.designer.cs">
-      <DependentUpon>BooksTableViewController.cs</DependentUpon>
+    <Compile Include="TableViewController__.cs" />
+    <Compile Include="TableViewController__.designer.cs">
+      <DependentUpon>TableViewController__.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
